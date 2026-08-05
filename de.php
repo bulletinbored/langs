@@ -358,6 +358,16 @@ return [
     'unknown' => 'Unbekannt',
     'approve' => 'Genehmigen',
 
+    // --- admin catalog ---
+    'catalog' => 'Katalog',
+    'browse_catalog' => 'Katalog durchsuchen',
+    'search_catalog' => 'Katalog durchsuchen...',
+    'available_items' => 'Verfügbare Elemente',
+    'no_items_in_catalog' => 'Keine Elemente im Katalog.',
+    'not_installed' => 'Nicht installiert',
+    'official' => 'Offiziell',
+    'type' => 'Typ',
+
     // --- admin updates ---
     'update_manager' => 'Update-Verwaltung',
     'check_for_updates' => 'Nach Updates suchen',

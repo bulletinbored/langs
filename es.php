@@ -356,6 +356,16 @@ return [
     'unknown' => 'Desconocido',
     'approve' => 'Aprobar',
 
+    // --- admin catalog ---
+    'catalog' => 'Catálogo',
+    'browse_catalog' => 'Explorar catálogo',
+    'search_catalog' => 'Buscar en el catálogo...',
+    'available_items' => 'Elementos disponibles',
+    'no_items_in_catalog' => 'No hay elementos en el catálogo.',
+    'not_installed' => 'No instalado',
+    'official' => 'Oficial',
+    'type' => 'Tipo',
+
     // --- admin updates ---
     'update_manager' => 'Gestión de actualizaciones',
     'check_for_updates' => 'Buscar actualizaciones',
