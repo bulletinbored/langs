@@ -315,7 +315,6 @@ return [
     'forum_categories' => 'Categorie del forum',
     'add_new_category' => 'Aggiungi nuova categoria',
     'add_category' => 'Aggiungi categoria',
-    'position' => 'Posizione',
 
     // --- admin users ---
     'users_management' => 'Gestione utenti',
