@@ -211,6 +211,8 @@ return [
     'curl_extension' => 'Extensión <code>curl</code> de PHP (descarga paquetes)',
     'allow_url_fopen_setting' => '<code>allow_url_fopen</code> (descarga alternativa)',
     'git_optional' => 'Git (opcional, se usa si está presente)',
+    'git_not_available' => 'No disponible',
+    'all_requirements_met' => 'Todos los requisitos cumplidos: la instalación con un clic desde el catálogo funcionará vía zip descargado.',
     'reach_github_https' => 'Alcance a GitHub vía HTTPS',
     'recommendations' => 'Recomendaciones',
     'nothing_to_report' => 'Nada que reportar.',
