@@ -308,9 +308,15 @@ return [
     'timezone' => 'Zeitzone',
     'date_format' => 'Datumsformat',
     'time_format' => 'Zeitformat',
-    'allow_registration' => 'Registrierung erlauben',
-    'maintenance_mode' => 'Wartungsmodus',
     'save_settings' => 'Einstellungen speichern',
+    'email_settings' => 'E-Mail & Systembenachrichtigungen',
+    'admin_email' => 'Administrations-E-Mail',
+    'admin_email_hint' => 'Wird als Absenderadresse für alle System-E-Mails verwendet (Registrierungen, Benachrichtigungen, Warnungen).',
+    'mail_from_name' => 'Absendername',
+    'mail_from_name_hint' => 'Der Anzeigename neben der Absenderadresse in ausgehenden E-Mails.',
+    'general_settings' => 'Allgemein',
+    'appearance_settings' => 'Erscheinungsbild',
+    'regional_settings' => 'Region & Format',
 
     // --- admin tables ---
     'id' => 'ID',

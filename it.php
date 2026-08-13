@@ -317,9 +317,15 @@ return [
     'timezone' => 'Fuso orario',
     'date_format' => 'Formato data',
     'time_format' => 'Formato ora',
-    'allow_registration' => 'Consenti registrazione',
-    'maintenance_mode' => 'Modalità manutenzione',
     'save_settings' => 'Salva impostazioni',
+    'email_settings' => 'Email e notifiche di sistema',
+    'admin_email' => 'Email di amministrazione',
+    'admin_email_hint' => 'Utilizzata come mittente per tutte le email di sistema (registrazioni, notifiche, avvisi).',
+    'mail_from_name' => 'Nome mittente',
+    'mail_from_name_hint' => 'Il nome visualizzato accanto all\'indirizzo del mittente nelle email in uscita.',
+    'general_settings' => 'Generali',
+    'appearance_settings' => 'Aspetto',
+    'regional_settings' => 'Localizzazione e formato',
 
     // --- admin tables ---
     'id' => 'ID',

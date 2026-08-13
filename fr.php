@@ -306,9 +306,15 @@ return [
     'timezone' => 'Fuseau horaire',
     'date_format' => 'Format de date',
     'time_format' => 'Format d\'heure',
-    'allow_registration' => 'Autoriser l\'inscription',
-    'maintenance_mode' => 'Mode maintenance',
     'save_settings' => 'Enregistrer les paramètres',
+    'email_settings' => 'E-mails et notifications système',
+    'admin_email' => 'E-mail d\'administration',
+    'admin_email_hint' => 'Utilisé comme adresse d\'expéditeur pour tous les e-mails système (inscriptions, notifications, alertes).',
+    'mail_from_name' => 'Nom de l\'expéditeur',
+    'mail_from_name_hint' => 'Le nom affiché à côté de l\'adresse de l\'expéditeur dans les e-mails sortants.',
+    'general_settings' => 'Général',
+    'appearance_settings' => 'Apparence',
+    'regional_settings' => 'Région et format',
 
     // --- admin tables ---
     'id' => 'ID',

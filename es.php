@@ -306,9 +306,15 @@ return [
     'timezone' => 'Zona horaria',
     'date_format' => 'Formato de fecha',
     'time_format' => 'Formato de hora',
-    'allow_registration' => 'Permitir registro',
-    'maintenance_mode' => 'Modo mantenimiento',
     'save_settings' => 'Guardar configuración',
+    'email_settings' => 'Correo y notificaciones del sistema',
+    'admin_email' => 'Correo de administración',
+    'admin_email_hint' => 'Se usa como dirección del remitente para todos los correos del sistema (registros, notificaciones, alertas).',
+    'mail_from_name' => 'Nombre del remitente',
+    'mail_from_name_hint' => 'El nombre mostrado junto a la dirección del remitente en los correos salientes.',
+    'general_settings' => 'General',
+    'appearance_settings' => 'Apariencia',
+    'regional_settings' => 'Región y formato',
 
     // --- admin tables ---
     'id' => 'ID',
