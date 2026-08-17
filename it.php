@@ -345,6 +345,8 @@ return [
     'general_settings' => 'Generali',
     'appearance_settings' => 'Aspetto',
     'regional_settings' => 'Localizzazione e formato',
+    'attachments_enabled' => 'Abilita allegati',
+    'attachments_enabled_hint' => 'Consenti agli utenti di caricare file durante la creazione di nuove discussioni.',
 
     // --- admin tables ---
     'id' => 'ID',

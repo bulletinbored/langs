@@ -334,6 +334,8 @@ return [
     'general_settings' => 'Général',
     'appearance_settings' => 'Apparence',
     'regional_settings' => 'Région et format',
+    'attachments_enabled' => 'Activer les pièces jointes',
+    'attachments_enabled_hint' => 'Autoriser les utilisateurs à télécharger des fichiers lors de la création de nouvelles discussions.',
 
     // --- admin tables ---
     'id' => 'ID',

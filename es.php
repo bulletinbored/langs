@@ -334,6 +334,8 @@ return [
     'general_settings' => 'General',
     'appearance_settings' => 'Apariencia',
     'regional_settings' => 'Región y formato',
+    'attachments_enabled' => 'Habilitar adjuntos',
+    'attachments_enabled_hint' => 'Permitir a los usuarios subir archivos al crear nuevas discusiones.',
 
     // --- admin tables ---
     'id' => 'ID',

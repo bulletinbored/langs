@@ -336,6 +336,8 @@ return [
     'general_settings' => 'Allgemein',
     'appearance_settings' => 'Erscheinungsbild',
     'regional_settings' => 'Region & Format',
+    'attachments_enabled' => 'Anhänge aktivieren',
+    'attachments_enabled_hint' => 'Benutzern erlauben, Dateien beim Erstellen neuer Themen hochzuladen.',
 
     // --- admin tables ---
     'id' => 'ID',
