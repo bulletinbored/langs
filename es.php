@@ -331,6 +331,14 @@ return [
     'admin_email_hint' => 'Se usa como dirección del remitente para todos los correos del sistema (registros, notificaciones, alertas).',
     'mail_from_name' => 'Nombre del remitente',
     'mail_from_name_hint' => 'El nombre mostrado junto a la dirección del remitente en los correos salientes.',
+    'notify_admin_email' => 'Correo del destinatario de notificaciones',
+    'notify_admin_email_hint' => 'Dirección que recibe las notificaciones administrativas (p. ej. nuevos registros de usuarios). Si está vacía, se usa la dirección del remitente.',
+    'new_user_subject' => 'Nuevo usuario registrado: {username}',
+    'new_user_body' => '<p>Hola,</p><p>Un nuevo usuario se ha registrado en <strong>{site}</strong>:</p><p>Usuario: <strong>{username}</strong><br>Correo: {email}</p><p><a href="{link}">Gestionar usuarios</a></p>',
+    'mentioned_subject' => 'Has sido mencionado en: {title}',
+    'mentioned_body' => '<p>Hola {username},</p><p><strong>{author}</strong> te mencionó en el tema <strong>{title}</strong>.</p><p><a href="{link}">Ver tema</a></p>',
+    'new_pm_subject' => 'Nuevo mensaje privado de {sender}',
+    'new_pm_body' => '<p>Hola {username},</p><p>Has recibido un nuevo mensaje privado de <strong>{sender}</strong>:</p><blockquote>{message}</blockquote><p><a href="{link}">Abrir mensajes</a></p>',
     'general_settings' => 'General',
     'appearance_settings' => 'Apariencia',
     'regional_settings' => 'Región y formato',
@@ -405,6 +413,15 @@ return [
     'date' => 'Fecha',
     'unknown' => 'Desconocido',
     'approve' => 'Aprobar',
+
+    // --- catalog settings ---
+    'catalog_settings' => 'Ajustes del catálogo',
+    'allow_catalog_only' => 'Permitir modo solo catálogo',
+    'allow_catalog_only_hint' => 'Cuando está activado, solo se pueden instalar plugins/temas con official: true del catálogo',
+    'plugin_verify_files' => 'Verificar archivos de plugins/temas al instalar',
+    'plugin_verify_files_hint' => 'Comprueba que los archivos instalados coincidan con el manifiesto; omite para desactivar',
+    'theme_verify_files' => 'Verificar archivos de temas al instalar',
+    'theme_verify_files_hint' => 'Comprueba que los archivos instalados coincidan con el manifiesto; omite para desactivar',
 
     // --- admin catalog ---
     'catalog' => 'Catálogo',

@@ -333,6 +333,14 @@ return [
     'admin_email_hint' => 'Wird als Absenderadresse für alle System-E-Mails verwendet (Registrierungen, Benachrichtigungen, Warnungen).',
     'mail_from_name' => 'Absendername',
     'mail_from_name_hint' => 'Der Anzeigename neben der Absenderadresse in ausgehenden E-Mails.',
+    'notify_admin_email' => 'E-Mail für Benachrichtigungsempfänger',
+    'notify_admin_email_hint' => 'Adresse, die administrative Benachrichtigungen erhält (z. B. neue Benutzerregistrierungen). Wenn leer, wird die Absenderadresse verwendet.',
+    'new_user_subject' => 'Neuer Benutzer registriert: {username}',
+    'new_user_body' => '<p>Hallo,</p><p>Ein neuer Benutzer hat sich bei <strong>{site}</strong> registriert:</p><p>Benutzername: <strong>{username}</strong><br>E-Mail: {email}</p><p><a href="{link}">Benutzer verwalten</a></p>',
+    'mentioned_subject' => 'Du wurdest erwähnt in: {title}',
+    'mentioned_body' => '<p>Hallo {username},</p><p><strong>{author}</strong> hat dich im Thema <strong>{title}</strong> erwähnt.</p><p><a href="{link}">Thema ansehen</a></p>',
+    'new_pm_subject' => 'Neue private Nachricht von {sender}',
+    'new_pm_body' => '<p>Hallo {username},</p><p>Du hast eine neue private Nachricht von <strong>{sender}</strong> erhalten:</p><blockquote>{message}</blockquote><p><a href="{link}">Nachrichten öffnen</a></p>',
     'general_settings' => 'Allgemein',
     'appearance_settings' => 'Erscheinungsbild',
     'regional_settings' => 'Region & Format',
@@ -407,6 +415,15 @@ return [
     'date' => 'Datum',
     'unknown' => 'Unbekannt',
     'approve' => 'Genehmigen',
+
+    // --- catalog settings ---
+    'catalog_settings' => 'Katalog-Einstellungen',
+    'allow_catalog_only' => 'Nur-Katalog-Modus erlauben',
+    'allow_catalog_only_hint' => 'Wenn aktiviert, können nur Plugins/Themes mit official: true aus dem Katalog installiert werden',
+    'plugin_verify_files' => 'Plugin-/Theme-Dateien bei Installation prüfen',
+    'plugin_verify_files_hint' => 'Überprüft, ob installierte Dateien mit dem Manifest übereinstimmen; zum Deaktivieren überspringen',
+    'theme_verify_files' => 'Theme-Dateien bei Installation prüfen',
+    'theme_verify_files_hint' => 'Überprüft, ob installierte Dateien mit dem Manifest übereinstimmen; zum Deaktivieren überspringen',
 
     // --- admin catalog ---
     'catalog' => 'Katalog',

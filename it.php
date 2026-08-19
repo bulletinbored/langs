@@ -342,6 +342,14 @@ return [
     'admin_email_hint' => 'Utilizzata come mittente per tutte le email di sistema (registrazioni, notifiche, avvisi).',
     'mail_from_name' => 'Nome mittente',
     'mail_from_name_hint' => 'Il nome visualizzato accanto all\'indirizzo del mittente nelle email in uscita.',
+    'notify_admin_email' => 'Email destinatario notifiche',
+    'notify_admin_email_hint' => 'Indirizzo che riceve le notifiche amministrative (es. nuove registrazioni utenti). Se vuoto, usa l\'indirizzo mittente.',
+    'new_user_subject' => 'Nuovo utente registrato: {username}',
+    'new_user_body' => '<p>Ciao,</p><p>Un nuovo utente si è registrato su <strong>{site}</strong>:</p><p>Username: <strong>{username}</strong><br>Email: {email}</p><p><a href="{link}">Gestisci utenti</a></p>',
+    'mentioned_subject' => 'Sei stato citato in: {title}',
+    'mentioned_body' => '<p>Ciao {username},</p><p><strong>{author}</strong> ti ha citato nella discussione <strong>{title}</strong>.</p><p><a href="{link}">Visualizza discussione</a></p>',
+    'new_pm_subject' => 'Nuovo messaggio privato da {sender}',
+    'new_pm_body' => '<p>Ciao {username},</p><p>Hai ricevuto un nuovo messaggio privato da <strong>{sender}</strong>:</p><blockquote>{message}</blockquote><p><a href="{link}">Apri messaggi</a></p>',
     'general_settings' => 'Generali',
     'appearance_settings' => 'Aspetto',
     'regional_settings' => 'Localizzazione e formato',
@@ -414,6 +422,15 @@ return [
     'date' => 'Data',
     'unknown' => 'Sconosciuto',
     'approve' => 'Approva',
+
+    // --- catalog settings ---
+    'catalog_settings' => 'Impostazioni catalogo',
+    'allow_catalog_only' => 'Consenti modalità solo catalogo',
+    'allow_catalog_only_hint' => 'Se abilitato, solo plugin/temi con official: true dal catalogo possono essere installati',
+    'plugin_verify_files' => 'Verifica i file di plugin/temi all\'installazione',
+    'plugin_verify_files_hint' => 'Controlla che i file installati corrispondano al manifest; salta per disabilitare',
+    'theme_verify_files' => 'Verifica i file dei temi all\'installazione',
+    'theme_verify_files_hint' => 'Controlla che i file installati corrispondano al manifest; salta per disabilitare',
 
     // --- admin catalog ---
     'catalog' => 'Catalogo',

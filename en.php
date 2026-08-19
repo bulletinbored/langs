@@ -331,6 +331,14 @@ return [
     'admin_email_hint' => 'Used as the sender address for all system emails (registrations, notifications, alerts).',
     'mail_from_name' => 'Sender Name',
     'mail_from_name_hint' => 'The display name shown next to the sender address in outgoing emails.',
+    'notify_admin_email' => 'Notification Recipient Email',
+    'notify_admin_email_hint' => 'Address that receives administrative notifications (e.g. new user registrations). Defaults to the sender address if empty.',
+    'new_user_subject' => 'New user registered: {username}',
+    'new_user_body' => '<p>Hello,</p><p>A new user has registered on <strong>{site}</strong>:</p><p>Username: <strong>{username}</strong><br>Email: {email}</p><p><a href="{link}">Manage users</a></p>',
+    'mentioned_subject' => 'You were mentioned in: {title}',
+    'mentioned_body' => '<p>Hello {username},</p><p><strong>{author}</strong> mentioned you in the thread <strong>{title}</strong>.</p><p><a href="{link}">View thread</a></p>',
+    'new_pm_subject' => 'New private message from {sender}',
+    'new_pm_body' => '<p>Hello {username},</p><p>You received a new private message from <strong>{sender}</strong>:</p><blockquote>{message}</blockquote><p><a href="{link}">Open messages</a></p>',
     'general_settings' => 'General',
     'appearance_settings' => 'Appearance',
     'regional_settings' => 'Regional & Format',
@@ -405,6 +413,15 @@ return [
     'date' => 'Date',
     'unknown' => 'Unknown',
     'approve' => 'Approve',
+
+    // --- catalog settings ---
+    'catalog_settings' => 'Catalog Settings',
+    'allow_catalog_only' => 'Allow catalog-only mode',
+    'allow_catalog_only_hint' => 'When enabled, only plugins/themes with official: true from the catalog can be installed',
+    'plugin_verify_files' => 'Verify plugin/theme files on install',
+    'plugin_verify_files_hint' => 'Check that installed files match the manifest; skip to disable',
+    'theme_verify_files' => 'Verify theme files on install',
+    'theme_verify_files_hint' => 'Check that installed files match the manifest; skip to disable',
 
     // --- admin catalog ---
     'catalog' => 'Catalog',

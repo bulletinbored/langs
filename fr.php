@@ -331,6 +331,14 @@ return [
     'admin_email_hint' => 'Utilisé comme adresse d\'expéditeur pour tous les e-mails système (inscriptions, notifications, alertes).',
     'mail_from_name' => 'Nom de l\'expéditeur',
     'mail_from_name_hint' => 'Le nom affiché à côté de l\'adresse de l\'expéditeur dans les e-mails sortants.',
+    'notify_admin_email' => 'E-mail du destinataire des notifications',
+    'notify_admin_email_hint' => 'Adresse recevant les notifications administratives (ex. nouvelles inscriptions). Utilise l\'adresse de l\'expéditeur si vide.',
+    'new_user_subject' => 'Nouvel utilisateur inscrit : {username}',
+    'new_user_body' => '<p>Bonjour,</p><p>Un nouvel utilisateur s\'est inscrit sur <strong>{site}</strong> :</p><p>Nom d\'utilisateur : <strong>{username}</strong><br>E-mail : {email}</p><p><a href="{link}">Gérer les utilisateurs</a></p>',
+    'mentioned_subject' => 'Vous avez été mentionné dans : {title}',
+    'mentioned_body' => '<p>Bonjour {username},</p><p><strong>{author}</strong> vous a mentionné dans le sujet <strong>{title}</strong>.</p><p><a href="{link}">Voir le sujet</a></p>',
+    'new_pm_subject' => 'Nouveau message privé de {sender}',
+    'new_pm_body' => '<p>Bonjour {username},</p><p>Vous avez reçu un nouveau message privé de <strong>{sender}</strong> :</p><blockquote>{message}</blockquote><p><a href="{link}">Ouvrir les messages</a></p>',
     'general_settings' => 'Général',
     'appearance_settings' => 'Apparence',
     'regional_settings' => 'Région et format',
@@ -405,6 +413,15 @@ return [
     'date' => 'Date',
     'unknown' => 'Inconnu',
     'approve' => 'Approuver',
+
+    // --- catalog settings ---
+    'catalog_settings' => 'Paramètres du catalogue',
+    'allow_catalog_only' => 'Autoriser le mode catalogue uniquement',
+    'allow_catalog_only_hint' => 'Lorsque activé, seuls les plugins/thèmes avec official: true du catalogue peuvent être installés',
+    'plugin_verify_files' => 'Vérifier les fichiers de plugins/thèmes lors de l\'installation',
+    'plugin_verify_files_hint' => 'Vérifie que les fichiers installés correspondent au manifeste ; ignorer pour désactiver',
+    'theme_verify_files' => 'Vérifier les fichiers de thèmes lors de l\'installation',
+    'theme_verify_files_hint' => 'Vérifie que les fichiers installés correspondent au manifeste ; ignorer pour désactiver',
 
     // --- admin catalog ---
     'catalog' => 'Catalogue',
