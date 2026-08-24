@@ -112,6 +112,11 @@ return [
     'pagination' => 'Seiten',
     'notifications' => 'Benachrichtigungen',
     'messages' => 'Nachrichten',
+    'view_all' => 'Alle ansehen',
+    'no_messages' => 'Noch keine Nachrichten',
+    'open_messages' => 'Nachrichten öffnen',
+    'no_notifications' => 'Keine Benachrichtigungen',
+    'open_notifications' => 'Benachrichtigungen öffnen',
 
     // --- discussion listing ---
     'discussions_count' => '{n} Diskussionen',
