@@ -117,6 +117,8 @@ return [
     'open_messages' => 'Ouvrir les messages',
     'no_notifications' => 'Aucune notification',
     'open_notifications' => 'Ouvrir les notifications',
+    'pm_notification' => 'Nouveau message privé de {sender}',
+
 
     // --- discussion listing ---
     'discussions_count' => '{n} discussions',
