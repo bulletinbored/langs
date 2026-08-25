@@ -169,6 +169,8 @@ return [
     'avatar' => 'Avatar',
     'avatar_hint' => 'JPG, PNG, GIF o WebP. Max 2 MB.',
     'upload_avatar' => 'Carica avatar',
+    'remove_avatar' => 'Rimuovi avatar',
+    'avatar_removed' => 'Avatar rimosso con successo.',
     'login_subtitle' => 'Accedi per continuare sul forum.',
     'register_subtitle' => 'Crea un account per partecipare alle discussioni.',
     'forgot_subtitle' => 'Inserisci la tua email e ti invieremo un link di reset.',
