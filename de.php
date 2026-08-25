@@ -118,6 +118,14 @@ return [
     'no_notifications' => 'Keine Benachrichtigungen',
     'open_notifications' => 'Benachrichtigungen öffnen',
     'pm_notification' => 'Neue private Nachricht von {sender}',
+    'mentioned_notification' => '{author} hat dich in {title} erwähnt',
+    'vote_notification' => '{voter} hat deinen Beitrag in {title} {type}',
+    'note_notification' => 'Neue Notiz von {sender}',
+    'new_follower_notification' => 'Du hast einen neuen Follower',
+    'role_updated_notification' => 'Deine Rolle wurde aktualisiert',
+    'reply_notification' => '{author} hat auf deine Diskussion {title} geantwortet',
+    'upvote' => 'positiv bewertet',
+    'downvote' => 'negativ bewertet',
 
 
     // --- discussion listing ---

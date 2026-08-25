@@ -118,6 +118,14 @@ return [
     'no_notifications' => 'No notifications',
     'open_notifications' => 'Open notifications',
     'pm_notification' => 'New private message from {sender}',
+    'mentioned_notification' => '{author} mentioned you in {title}',
+    'vote_notification' => '{voter} {type} your post in {title}',
+    'note_notification' => 'New note from {sender}',
+    'new_follower_notification' => 'You have a new follower',
+    'role_updated_notification' => 'Your role was updated',
+    'reply_notification' => '{author} replied to your discussion {title}',
+    'upvote' => 'upvoted',
+    'downvote' => 'downvoted',
 
 
     // --- discussion listing ---
