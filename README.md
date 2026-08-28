@@ -1,40 +1,40 @@
 # bulletinbored-langs
 
-Translation files for [bulletinbored](https://github.com/yourusername/bulletinbored), a minimal PHP forum.
+Translation files for [bulletinbored](https://github.com/bulletinbored/bulletinbored-core), a minimal PHP forum.
 
 ## Structure
 
-Each translation is a single PHP file in the repository root:
+Each translation is a single JSON file in the repository root:
 
 ```
-en.php
-it.php
-de.php
-fr.php
+en.json
+it.json
+de.json
+fr.json
+es.json
 ```
 
-The filename must match the language code (e.g. `en`, `it`, `de`, `fr`).
+The filename must match the language code (e.g. `en`, `it`, `de`, `fr`, `es`).
 
 ## File Format
 
-Every file must return an associative array with `key => translated string`:
+Every file must be a JSON object with `"key": "translated string"` pairs:
 
-```php
-<?php
-return [
-    'site_name' => 'bulletinbored',
-    'home' => 'Home',
-    'login' => 'Login',
-];
+```json
+{
+    "site_name": "bulletinbored",
+    "home": "Home",
+    "login": "Login"
+}
 ```
 
-Use the English keys exactly as they appear in the core `lang/en.php` file. Missing keys will fall back to English.
+Use the English keys exactly as they appear in the core `lang/en.json` file. Missing keys will fall back to English.
 
 ## Adding a New Language
 
 1. Fork this repository.
-2. Create a new file named `<language_code>.php` in the root directory.
-3. Translate every key from `en.php`.
+2. Create a new file named `<language_code>.json` in the root directory.
+3. Translate every key from `en.json`.
 4. Open a pull request with the new file.
 
 ## For Forum Administrators
@@ -45,4 +45,4 @@ You can install language files directly from the Admin Panel:
 2. Use the **Install from GitHub** section to browse available translations.
 3. Click **Install** next to a language to download it to your forum.
 
-You can also manually upload a `.php` translation file from the same page.
+You can also manually upload a `.json` translation file from the same page.
