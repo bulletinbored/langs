@@ -404,5 +404,10 @@
     "plugin_step_enable": "Activer",
     "theme_step_browse": "Parcourir",
     "theme_step_install": "Installer",
-    "theme_step_enable": "Activer"
+    "theme_step_enable": "Activer",
+    "admin": "Admin",
+    "core": "Noyau",
+    "plugin_manager": "Gestionnaire de plugins",
+    "save": "Enregistrer",
+    "theme_manager": "Gestionnaire de thèmes"
 }

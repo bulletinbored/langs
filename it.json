@@ -404,5 +404,10 @@
     "plugin_step_enable": "Abilita",
     "theme_step_browse": "Sfoglia",
     "theme_step_install": "Installa",
-    "theme_step_enable": "Attiva"
+    "theme_step_enable": "Attiva",
+    "admin": "Admin",
+    "core": "Core",
+    "plugin_manager": "Gestione plugin",
+    "save": "Salva",
+    "theme_manager": "Gestione temi"
 }
