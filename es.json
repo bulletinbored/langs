@@ -114,6 +114,8 @@
     "open_messages": "Abrir mensajes",
     "no_notifications": "Sin notificaciones",
     "open_notifications": "Abrir notificaciones",
+    "mark_all_read": "Marcar todas como leídas",
+    "mark_read": "Marcar como leída",
     "pm_notification": "Nuevo mensaje privado de {sender}",
     "mentioned_notification": "{author} te mencionó en {title}",
     "vote_notification": "{voter} {type} tu publicación en {title}",

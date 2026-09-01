@@ -114,6 +114,8 @@
     "open_messages": "Apri messaggi",
     "no_notifications": "Nessuna notifica",
     "open_notifications": "Apri notifiche",
+    "mark_all_read": "Segna tutte come lette",
+    "mark_read": "Segna come letta",
     "pm_notification": "Hai ricevuto un nuovo messaggio privato da {sender}",
     "mentioned_notification": "{author} ti ha citato in {title}",
     "vote_notification": "{voter} ha {type} il tuo post in {title}",
